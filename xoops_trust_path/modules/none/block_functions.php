@@ -12,7 +12,7 @@ function b_none_show($options)
     $textFilter =& $root->getTextFilter();
     $moduleHandler =& xoops_gethandler('module');
     $configHandler =& xoops_gethandler('config');
-    $tpl =& new Legacy_XoopsTpl();
+    $tpl = new Legacy_XoopsTpl();
 
     // setup block contents
     $myconfig =& $configHandler->getConfigsByDirname($mydirname);

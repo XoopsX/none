@@ -27,7 +27,7 @@ if (!function_exists('none_global_search_base')) {
         if (empty($config['search_comment'])) {
             $config = array();
         }
-        $tpl =& new Legacy_XoopsTpl();
+        $tpl = new Legacy_XoopsTpl();
         $tpl->assign('config', $config);
         $content = strip_tags($tpl->fetch("db:{$mydirname}_index.tpl"));
 
